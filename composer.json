@@ -1,0 +1,20 @@
+{
+    "name": "jay/jwp-featured-posts",
+    "description": "A plugin to add add a settings page under settings menu, and a shortcode to show featured posts by using filters from the settings page.",
+    "type": "wordpress-plugin",
+    "license": "GPL v2",
+    "authors": [
+        {
+            "name": "Tanmay Kirtania",
+            "email": "jktanmay@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "JWP\\JFP\\": "includes/"
+        },
+        "files": [ "includes/functions.php" ]
+    }
+}
